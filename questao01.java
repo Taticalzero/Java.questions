@@ -1,23 +1,24 @@
+/*
+Desenvolva um sistema que peça a idade do seu primo e a idade da sua tia. Em seguida,
+imprima as informações a seguir: 
+- a do seu primo
+- a idade da sua tia
+- minha tia tem <anos> a mais do que eu
+*/
+
 import java.util.Scanner; // Biblioteca Scanner
 class Main {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
-   //Nome do usuario
-  // System.out.println("Informe seu nome da tia :");
-  // String nomet = in.nextLine();
    //Idade do usuario
    System.out.println("Informe sua idade do tia :");
    int idadet = in.nextInt();
-   //Nome do usuario
-  // System.out.println("Informe seu nome da primo :");
-  // String nomep = in.nextLine();
    //Idade do usuario
    System.out.println("Informe sua idade do primo :");
    int idadep = in.nextInt();
-  
-  //System.out.print("Nome da Sua tia " +nomet);
+    //Saida do idade da tia
   System.out.print("Idade da  Sua tia " +idadet);
-  //System.out.print("Idade do seu primo " +nomep);
+  // Saida da idade do primo
   System.out.println("   Idade do seu primo " +idadep);
 //Operação logica
     int x;
