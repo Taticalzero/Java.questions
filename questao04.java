@@ -1,4 +1,9 @@
-import java.util.Scanner;
+/*
+Faça um sistema que realize o somatório dos números no intervalo determinado pelo usuário.
+Peça para o usuário definir o início e o final da contagem
+*/
+
+import java.util.Scanner; // Biblioteca Scanner
 
 public class questao04{
 
@@ -16,8 +21,8 @@ public class questao04{
         //Iniciando o loop
         while(i<fim){
             i++; //incrementando os valores
-            soma+=i;
+            soma+=i; // incrementando a soma dos valores 
         }
-        System.out.println(soma);
+        System.out.println(soma); // saida dos valores finais da soma 
     }
 }
