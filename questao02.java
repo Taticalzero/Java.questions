@@ -4,6 +4,10 @@ informação em uma variável. Posteriormente a sua senha e coloque-a em outra v
 fim, verifique se o login e a senha são iguais àquele definido por você.
 */
 
+/*
+Grupo de programadores : Ana , Flavio e Matheus
+*/
+
 
 import java.util.Scanner; // Biblioteca scanner
     public class questao02{
