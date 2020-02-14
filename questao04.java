@@ -3,6 +3,10 @@ Faça um sistema que realize o somatório dos números no intervalo determinado 
 Peça para o usuário definir o início e o final da contagem
 */
 
+/*
+Grupo de programadores : Ana , Flavio e Matheus
+*/
+
 import java.util.Scanner; // Biblioteca Scanner
 
 public class questao04{
