@@ -2,6 +2,9 @@
 Desenvolva um sistema que realize o somatório dos números de 1 até 100
 */
 
+/*
+Grupo de programadores : Ana , Flavio e Matheus
+*/
 
 public class questao03{
 
