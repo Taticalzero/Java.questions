@@ -3,6 +3,10 @@ João deseja fazer um sistema que que solicite para a pessoa digitar um número 
 posteriormente, realize a soma de todos os algarismos deste mesmo número
 */
 
+/*
+Grupo de programadores : Ana , Flavio e Matheus
+*/
+
 import  java.util.Scanner; // Biblioteca Scanner
 
 public class questao05{
