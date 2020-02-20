@@ -11,9 +11,11 @@ Grupo de programadores : Ana , Flavio e Matheus
 */
 
 import java.util.Scanner; // Biblioteca Scanner
-class questao01 {
+
+public class questao01 {
+  static Scanner sc = new Scanner(System.in);
+  
   public static void main(String[] args) {
-    static Scanner sc = new Scanner(System.in);
    //Idade do usuario
    System.out.println("Informe sua idade do tia :");
    int idadet = sc.nextInt();
