@@ -11,15 +11,15 @@ Grupo de programadores : Ana , Flavio e Matheus
 
 import java.util.Scanner; // Biblioteca scanner
     public class questao02{
+        static Scanner sc = new Scanner(System.in);
 
         public static void main(String[] args) {
-            Scanner in = new Scanner(System.in);
             //Login
             System.out.println("Login: ");
-            String login = in.nextLine();
+            String login = sc.nextLine();
             //Senha
             System.out.println("Senha: ");
-            String senha = in.nextLine();
+            String senha = sc.nextLine();
             System.out.println(""); // saltar linha
                // Autenticação do usuario e senha por string 
             if(login.equals("arata") && senha.equals("123-9658") ){
