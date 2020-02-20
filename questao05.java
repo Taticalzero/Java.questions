@@ -10,18 +10,18 @@ Grupo de programadores : Ana , Flavio e Matheus
 import java.util.Scanner; // Biblioteca Scanner
 
 public class questao04{
-
+    static Scanner sc = new Scanner(System.in);
     public static void main(String[] arg){
-        Scanner in = new Scanner(System.in);
         //Definindo o limite da entrada dos valores
         System.out.println("informe o inicio da contagem: ");
-        int ini = in.nextIn();
+        int ini = sc.nextIn();
         //Definindo o limite da saida dos valores
         System.out.println("informe o final da contagem: " );
-        int fim = in.nextIn();
+        int fim = sc.nextIn();
 
-        int i = ini; // iniciando com 1
-        int soma = ini;// iniciando o intervalo com 1
+        int i = ini; // iniciando os contadores
+        int soma = ini;// iniciando os contadores
+        
         //Iniciando o loop
         while(i<fim){
             i++; //incrementando os valores
