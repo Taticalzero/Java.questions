@@ -11,15 +11,15 @@ Grupo de programadores : Ana , Flavio e Matheus
 */
 
 import java.util.Scanner; // Biblioteca Scanner
-class Main {
+class questao01 {
   public static void main(String[] args) {
-    Scanner in = new Scanner(System.in);
+    static Scanner sc = new Scanner(System.in);
    //Idade do usuario
    System.out.println("Informe sua idade do tia :");
-   int idadet = in.nextInt();
+   int idadet = sc.nextInt();
    //Idade do usuario
    System.out.println("Informe sua idade do primo :");
-   int idadep = in.nextInt();
+   int idadep = sc.nextInt();
     //Saida do idade da tia
   System.out.print("Idade da  Sua tia " +idadet);
   // Saida da idade do primo
